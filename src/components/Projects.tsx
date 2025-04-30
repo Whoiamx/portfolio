@@ -16,7 +16,7 @@ const Projects = () => {
       <div className="flex flex-col gap-8 items-center">
         <div className="bg-[#1f1f3b] p-6 rounded-lg w-full md:w-3/4 lg:w-1/2 gap-4">
           <img
-            src="/path/to/your/project-image1.jpg" // Cambia esta ruta por la imagen de tu proyecto
+            src="/fit2.PNG" // Cambia esta ruta por la imagen de tu proyecto
             alt="SVGL Project"
             className="mb-4 rounded-lg"
           />
