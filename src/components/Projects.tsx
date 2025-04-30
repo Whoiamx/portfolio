@@ -15,11 +15,7 @@ const Projects = () => {
 
       <div className="flex flex-col gap-8 items-center">
         <div className="bg-[#1f1f3b] p-6 rounded-lg w-full md:w-3/4 lg:w-1/2 gap-4">
-          <img
-            src="/fit2.PNG" // Cambia esta ruta por la imagen de tu proyecto
-            alt="SVGL Project"
-            className="mb-4 rounded-lg"
-          />
+          <img src="/fit2.PNG" className="mb-4 rounded-lg" />
           <h3 className="text-3xl font-semibold mb-2 text-white text-center">
             Fit 2 Work - <i>En proceso...</i>
           </h3>
