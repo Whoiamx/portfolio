@@ -1,6 +1,6 @@
 import { FaReact, FaNodeJs, FaCss3Alt, FaHtml5 } from "react-icons/fa";
 import { DiPostgresql, DiJavascript1, DiMongodb } from "react-icons/di";
-import { SiNextdotjs, SiFigma, SiVercel } from "react-icons/si";
+import { SiNextdotjs, SiFigma, SiVercel, SiTailwindcss } from "react-icons/si";
 
 export const StackTech = () => {
   return (
@@ -20,6 +20,11 @@ export const StackTech = () => {
         <div className="flex flex-col items-center">
           <FaCss3Alt className="text-5xl text-blue-600" />
           <h3 className="mt-2 text-xl font-semibold">CSS3</h3>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <SiTailwindcss className="text-5xl text-purple-600" />
+          <h3 className="mt-2 text-xl font-semibold">Figma</h3>
         </div>
 
         <div className="flex flex-col items-center">
