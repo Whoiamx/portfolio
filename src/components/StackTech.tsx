@@ -1,6 +1,6 @@
 import { FaReact, FaNodeJs, FaCss3Alt, FaHtml5 } from "react-icons/fa";
 import { DiPostgresql, DiJavascript1, DiMongodb } from "react-icons/di";
-import { SiNextdotjs, SiFigma, SiVercel, SiTailwindcss } from "react-icons/si";
+import { SiNextdotjs, SiFigma, SiTailwindcss } from "react-icons/si";
 
 export const StackTech = () => {
   return (
