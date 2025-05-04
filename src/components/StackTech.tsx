@@ -16,57 +16,43 @@ export const StackTech = () => {
           <FaHtml5 className="text-5xl text-orange-600" />
           <h3 className="mt-2 text-xl font-semibold">HTML5</h3>
         </div>
-
         <div className="flex flex-col items-center">
           <FaCss3Alt className="text-5xl text-blue-600" />
           <h3 className="mt-2 text-xl font-semibold">CSS3</h3>
         </div>
-
         <div className="flex flex-col items-center">
-          <SiTailwindcss className="text-5xl text-purple-600" />
-          <h3 className="mt-2 text-xl font-semibold">Figma</h3>
+          <SiTailwindcss className="text-5xl text-blue-600" />
+          <h3 className="mt-2 text-xl font-semibold">Tailwind CSS</h3>
         </div>
-
+        ``
         <div className="flex flex-col items-center">
           <SiFigma className="text-5xl text-purple-600" />
           <h3 className="mt-2 text-xl font-semibold">Figma</h3>
         </div>
-
         <div className="flex flex-col items-center">
           <DiJavascript1 className="text-5xl text-yellow-500" />
           <h3 className="mt-2 text-xl font-semibold">JavaScript</h3>
         </div>
-
-        <div className="flex flex-col items-center">
-          <SiVercel className="text-5xl text-black" />
-          <h3 className="mt-2 text-xl font-semibold">Vercel</h3>
-        </div>
-
         <div className="flex flex-col items-center">
           <FaReact className="text-5xl text-blue-600" />
           <h3 className="mt-2 text-xl font-semibold">React</h3>
         </div>
-
         <div className="flex flex-col items-center">
           <SiNextdotjs className="text-5xl text-black" />
           <h3 className="mt-2 text-xl font-semibold">Next.js</h3>
         </div>
-
         <div className="flex flex-col items-center">
-          <FaNodeJs className="text-5xl text-green-600" />
+          <FaNodeJs className="text-5xl text-black" />
           <h3 className="mt-2 text-xl font-semibold">Express.js</h3>
         </div>
-
         <div className="flex flex-col items-center">
           <FaNodeJs className="text-5xl text-green-600" />
           <h3 className="mt-2 text-xl font-semibold">Node.js</h3>
         </div>
-
         <div className="flex flex-col items-center">
           <DiPostgresql className="text-5xl text-blue-600" />
           <h3 className="mt-2 text-xl font-semibold">PostgreSQL</h3>
         </div>
-
         <div className="flex flex-col items-center">
           <DiMongodb className="text-5xl text-green-700" />
           <h3 className="mt-2 text-xl font-semibold">MongoDB</h3>
