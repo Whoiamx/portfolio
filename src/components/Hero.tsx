@@ -1,9 +1,9 @@
-import { FaLinkedin, FaDownload } from "react-icons/fa"; // Importando el ícono de descarga
+import { FaDownload, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section className="py-16 md:py-36 scroll-m-20 ">
-      <div className="container px-20">
+    <section className="py-16 md:py-36 scroll-m-20">
+      <div className="container px-6 md:px-20">
         <div className="flex flex-col md:flex-row-reverse items-center gap-10 md:gap-16">
           <div className="flex justify-center flex-col items-center md:items-start gap-6">
             <img
@@ -35,11 +35,11 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-6">
               <a
-                href="/CVGaston2025.pdf" // Ruta al archivo PDF en la carpeta public
+                href="/CVGaston2025.pdf"
                 download="CV_Gaston_Timchuk.pdf"
                 className="inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white dark:hover:bg-gray-100 dark:hover:border-gray-300 dark:hover:text-black group max-w-fit focus:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2"
               >
-                <FaDownload className="text-lg" /> {/* Icono de descarga */}
+                <FaDownload className="text-lg" />
                 Descargar CV
               </a>
               <a
@@ -47,7 +47,7 @@ const Hero = () => {
                 target="_blank"
                 className="inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white dark:hover:bg-gray-100 dark:hover:border-gray-300 dark:hover:text-black group max-w-fit focus:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2"
               >
-                <FaLinkedin className="text-lg" /> {/* Icono de LinkedIn */}
+                <FaLinkedin className="text-lg" />
                 LinkedIn
               </a>
             </div>

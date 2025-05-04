@@ -14,13 +14,14 @@ const Projects = () => {
       </h2>
 
       <div className="flex flex-col gap-8 items-center">
+        {/* Proyecto 1 */}
         <div className="bg-[#1f1f3b] p-6 rounded-lg w-full md:w-3/4 lg:w-1/2 gap-4">
           <img src="/fit2.PNG" className="mb-4 rounded-lg" />
           <h3 className="text-3xl font-semibold mb-2 text-white text-center">
             Fit 2 Work - <i>En proceso...</i>
           </h3>
           <p className="text-gray-300 mb-2 text-center">
-            Aplicacion para buscar trabajo con ayuda de la IA
+            Aplicación para buscar trabajo con ayuda de la IA
           </p>
           <div className="flex justify-center gap-3 text-sm text-gray-400 mb-4">
             <div className="flex items-center gap-2">
@@ -64,6 +65,7 @@ const Projects = () => {
           </div>
         </div>
 
+        {/* Proyecto 2 */}
         <div className="flex flex-col justify-center items-center bg-[#1f1f3b] p-6 rounded-lg w-full md:w-3/4 lg:w-1/2 gap-3">
           <a href="https://sup-today-app.vercel.app/" target="_blank">
             <img src="/sup.PNG" className="mb-4 rounded-lg" />
@@ -72,8 +74,8 @@ const Projects = () => {
             Sup Today
           </h3>
           <p className="text-gray-300 mb-2 text-center">
-            Aplicacion para anotar recordatorios con notificaciones via Whatsapp
-            e Email.
+            Aplicación para anotar recordatorios con notificaciones vía WhatsApp
+            y Email.
           </p>
           <div className="flex justify-center gap-4 text-sm text-gray-400 mb-4">
             <div className="flex items-center gap-2">

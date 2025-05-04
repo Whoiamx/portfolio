@@ -11,7 +11,7 @@ const Header = () => {
         <a href="#sobre-mi" className="hover:text-white">
           Sobre mí
         </a>
-        <a href="#" className="hover:text-white">
+        <a href="#contacto" className="hover:text-white">
           Contacto
         </a>
       </nav>
