@@ -15,6 +15,13 @@ const About = () => {
             con una experiencia de usuario clara.
           </p>
         </div>
+        <div className="flex justify-center flex-col items-center md:items-start gap-6">
+          <img
+            src="/gastongh.png"
+            alt="Foto de Gastón"
+            className="w-40 h-40 rounded-full object-cover border-4 border-white"
+          />
+        </div>
       </div>
     </section>
   );
