@@ -68,10 +68,9 @@ const projects = [
     url: "https://kick-store-js.vercel.app/",
   },
   {
-    title: "Sup Today",
-    image: "/sup.PNG",
-    description:
-      "Aplicación para anotar recordatorios con notificaciones vía WhatsApp y Email.",
+    title: "Film Zone",
+    image: "/filmzone.png",
+    description: "Aplicación para guardar tus peliculas favortias",
     tech: [
       { icon: <SiNextdotjs className="text-black text-sm" />, name: "Next.js" },
       {
@@ -88,8 +87,8 @@ const projects = [
         name: "Tailwind CSS",
       },
     ],
-    repo: "https://github.com/Whoiamx/sup-today-app",
-    url: "https://sup-today-app.vercel.app/",
+    repo: "https://github.com/Whoiamx/movies-finder",
+    url: "https://movies-finder-six.vercel.app/",
   },
 ];
 
@@ -100,7 +99,7 @@ const Projects = () => {
         Proyectos
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 justify-items-center w-full max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center w-full max-w-6xl mx-auto">
         {projects.map((project, idx) => (
           <div
             key={idx}
@@ -129,7 +128,7 @@ const Projects = () => {
             <div className="flex justify-center gap-4">
               <a
                 href={project.repo}
-                className="underline font-semibold text-white transition hover:text-yellow-300"
+                className=" font-semibold text-white transition hover:text-yellow-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -137,7 +136,7 @@ const Projects = () => {
               </a>
               <a
                 href={project.url}
-                className="underline text-white font-semibold transition hover:text-yellow-300"
+                className=" text-white font-semibold transition hover:text-yellow-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >
