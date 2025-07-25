@@ -17,7 +17,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="transition hover:scale-105"
             >
-              <div className="inline-flex items-center justify-center w-full px-4 py-2 text-black bg-green-400 rounded-full shadow-md cursor-pointer backdrop-blur-3xl whitespace-nowrap font-semibold hover:bg-yellow-300 transition">
+              <div className="inline-flex items-center justify-center w-full px-4 py-2 text-black bg-green-400 rounded-full shadow-md cursor-pointer backdrop-blur-3xl whitespace-nowrap font-semibold hover:bg-green-300 transition">
                 Disponible para trabajar
               </div>
             </a>
