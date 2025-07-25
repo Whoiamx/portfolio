@@ -2,7 +2,7 @@ import { FaDownload, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section className="p-16 md:pt-28 md:pb-28  from-gray-900 via-gray-800 to-gray-900 scroll-mt-20">
+    <section className="p-16 md:pt-28 md:pb-28  scroll-mt-20">
       <div className="container px-6 md:px-20">
         <div className="flex flex-col md:flex-row-reverse items-center gap-10 md:gap-16">
           <div className="flex justify-center flex-col items-center  gap-6">
@@ -23,11 +23,11 @@ const Hero = () => {
             </a>
           </div>
 
-          <div className="text-center p-24 md:text-left max-w-3xl">
-            <h1 className="text-3xl md:text-6xl font-extrabold mb-4 text-white drop-shadow-lg">
+          <div className="text-center  p-24 md:text-left max-w-3xl">
+            <h1 className="text-4xl font-semibold mb-4 text-white drop-shadow-lg">
               Hola, soy Gastón
             </h1>
-            <h2 className="text-yellow-200 text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">
+            <h2 className="text-yellow-200 text-6xl text-nowrap  font-extrabold mb-4 drop-shadow-lg">
               Desarrollador Fullstack
             </h2>
             <p className="text-xl text-gray-200 mb-8 font-medium">

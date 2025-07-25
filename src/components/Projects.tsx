@@ -19,7 +19,17 @@ const Projects = () => {
 
       <div className="flex flex-col gap-12 items-center">
         <div className="p-6 rounded-2xl w-full md:w-3/4 lg:w-1/2 gap-4 bg-gray-800 bg-opacity-90 border border-yellow-200/20 shadow-xl transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-          <img src="/fit2workimage.png" className="mb-4 rounded-lg shadow-lg" />
+          <a
+            href="https://fit-2-work.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/fit2workimage.png"
+              className="mb-4 rounded-lg shadow-lg"
+            />
+          </a>
+
           <h3
             className="text-3xl font-extrabold mb-2 text-white
            text-center"
@@ -58,8 +68,8 @@ const Projects = () => {
               Repositorio
             </a>
             <a
-              href="https://fit-2-work.vercel.app/"
               className=" text-white font-semibold transition hover:text-yellow-300"
+              href="https://fit-2-work.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
