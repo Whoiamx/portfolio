@@ -9,7 +9,7 @@ import { StackTech } from "./components/StackTech";
 import "./index.css";
 function App() {
   return (
-    <div className="bg-[#0f0f2d] text-white font-sans scroll-smooth">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-gray-100 font-sans scroll-smooth">
       <Header />
       <main>
         <Hero />
