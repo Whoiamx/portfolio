@@ -103,21 +103,27 @@ const Projects = () => {
         {projects.map((project, idx) => (
           <div
             key={idx}
-            className="p-6 rounded-2xl w-full max-w-xs bg-gray-800 bg-opacity-90 border border-yellow-200/20 shadow-xl transition-transform duration-300 hover:scale-105 hover:shadow-2xl flex flex-col items-center"
+            className="p-6 rounded-2xl gap-3  w-full max-w-xs bg-gray-800 bg-opacity-90 border border-yellow-200/20 shadow-xl transition-transform duration-300 hover:scale-105 hover:shadow-2xl flex flex-col items-center"
           >
-            <a href={project.url} target="_blank" rel="noopener noreferrer">
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full"
+            >
               <img
                 src={project.image}
-                className="mb-4 rounded-lg shadow-lg w-full h-40 object-cover"
+                className="mb-4 rounded-lg shadow-lg w-full h-36 object-cover"
+                alt={project.title}
               />
             </a>
-            <h3 className="text-2xl font-extrabold mb-2 text-white text-center">
+            <h3 className="text-xl font-extrabold mb-2 text-white text-center break-words">
               {project.title}
             </h3>
-            <p className="text-gray-300 mb-2 text-center">
+            <p className="text-gray-300 mb-2 text-center text-sm break-words">
               {project.description}
             </p>
-            <div className="flex justify-center gap-2 text-sm text-gray-400 mb-4 flex-wrap">
+            <div className="flex justify-center gap-2 text-xs text-gray-400 mb-4 flex-wrap max-h-16 overflow-y-auto">
               {project.tech.map((tech, i) => (
                 <div key={i} className="flex items-center gap-1">
                   {tech.icon}
@@ -125,10 +131,10 @@ const Projects = () => {
                 </div>
               ))}
             </div>
-            <div className="flex justify-center gap-4">
+            <div className="flex justify-center gap-4 flex-wrap">
               <a
                 href={project.repo}
-                className=" font-semibold text-white transition hover:text-yellow-300"
+                className="font-semibold text-white underline transition hover:text-yellow-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -136,7 +142,7 @@ const Projects = () => {
               </a>
               <a
                 href={project.url}
-                className=" text-white font-semibold transition hover:text-yellow-300"
+                className="text-white font-semibold underline transition hover:text-yellow-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -149,5 +155,4 @@ const Projects = () => {
     </section>
   );
 };
-
 export default Projects;
