@@ -8,7 +8,7 @@ export const StackTech = () => {
       id="tecnologias"
       className="w-full flex flex-col items-center text-center gap-8 px-6 py-20 "
     >
-      <h2 className="text-3xl font-bold mb-10 text-white drop-shadow-lg">
+      <h2 className="text-3xl text-yellow-200  font-bold mb-10 drop-shadow-lg">
         Tecnologías que utilizo
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8  w-full max-w-5xl">
